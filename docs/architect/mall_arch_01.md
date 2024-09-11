@@ -109,7 +109,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/mall?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
-    password: root
+    password: Root15()
 
 mybatis:
   mapper-locations:

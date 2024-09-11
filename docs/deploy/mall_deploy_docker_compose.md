@@ -106,7 +106,7 @@ services:
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: root #设置root帐号密码
+      MYSQL_ROOT_PASSWORD: Root15() #设置root帐号密码
     ports:
       - 3306:3306
     volumes:
